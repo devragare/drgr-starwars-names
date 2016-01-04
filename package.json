@@ -1,0 +1,27 @@
+{
+  "name": "drgr-starwar-names",
+  "version": "1.0.0",
+  "description": "A microlibrary retring names from Star Wars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devragare/drgr-starwars-names.git"
+  },
+  "keywords": [
+    "star",
+    "wars",
+    "microlibrary"
+  ],
+  "author": "'Rafael <'dev.ragare@gmail.com'>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devragare/drgr-starwars-names/issues"
+  },
+  "homepage": "https://github.com/devragare/drgr-starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
