@@ -1,10 +1,10 @@
 {
   "name": "drgr-starwar-names",
-  "version": "1.2.0-beta.1",
+  "version": "1.3.0",
   "description": "See https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-publishing-to-npm",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "homepage": "https://github.com/devragare/drgr-starwars-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.4.1",
+    "mocha": "2.3.4"
   }
 }
