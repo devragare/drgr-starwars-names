@@ -1,8 +1,8 @@
 {
   "name": "drgr-starwar-names",
-  "version": "1.0.0",
-  "description": "A microlibrary retring names from Star Wars",
-  "main": "index.js",
+  "version": "1.1.0",
+  "description": "See https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-publishing-to-npm",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
