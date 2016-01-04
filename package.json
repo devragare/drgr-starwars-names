@@ -1,6 +1,6 @@
 {
   "name": "drgr-starwar-names",
-  "version": "1.2.0-beta.0",
+  "version": "1.2.0-beta.1",
   "description": "See https://egghead.io/lessons/javascript-how-to-write-a-javascript-library-publishing-to-npm",
   "main": "src/index.js",
   "scripts": {
