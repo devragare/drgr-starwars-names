@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
+    "report-coverage":"codecov < .\\coverage\\lcov.info",
     "test": "mocha src/index.test.js -w",
     "test:single": "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/devragare/drgr-starwars-names#readme",
   "dependencies": {
+    "codecov.io": "^0.1.6",
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
